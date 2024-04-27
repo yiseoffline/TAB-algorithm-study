@@ -1,3 +1,4 @@
+# 11656
 s = input()
 arr=[]
 for i in range(len(s)):
