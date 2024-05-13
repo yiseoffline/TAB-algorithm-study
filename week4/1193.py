@@ -1,3 +1,5 @@
+# 1193 분수 찾기
+
 input=int(input())
 
 line=0
@@ -13,5 +15,5 @@ if line%2==0:
 else:
     top=gap+1
     under=line-gap
-    
+
 print(f'{top}/{under}')
