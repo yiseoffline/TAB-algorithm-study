@@ -1,11 +1,6 @@
-import sys
+s = input()
 
-s = sys.stdin.readline().strip()
-
-if len(s) % 2 == 0:
-    chk = len(s)
-else:
-    chk = len(s) - 1
+chk = len(s) if len(s) % 2 == 0 else len(s) - 1
 
 while chk > 0:
     i = 0
