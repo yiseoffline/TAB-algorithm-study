@@ -24,5 +24,4 @@ for _ in range(c):
                 if is_lucky:
                     result.add(sum)
 
-
     print(len(result))
